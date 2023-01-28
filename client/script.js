@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('http://lokalhost:127.0.0.1.5173', {
+    const response = await fetch('https://codex-v1-vuf6.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
